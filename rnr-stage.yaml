@@ -14,4 +14,14 @@ stage: pipelined_riscv
 modules:
   pipelined_riscv:
     source_files:
-      - Pipelined_RISCV/rtl.sv
+      - Pipelined_RISCV/Pipelined_RISCV_rtl.sv
+      - Pipelined_RISCV/IF_Stage_rtl.sv
+      - Pipelined_RISCV/ID_Stage_rtl.sv
+      - Pipelined_RISCV/EX_Stage_rtl.sv
+      - Pipelined_RISCV/WB_STAGE_rtl.sv
+      - Pipelined_RISCV/Decoder_rtl.sv
+      - Pipelined_RISCV/Immediate_Generator_rtl.sv
+      - Pipelined_RISCV/Main_Control_rtl.sv
+      - Pipelined_RISCV/Register_File_rtl.sv
+      - Pipelined_RISCV/ALU_Control_rtl.sv
+      - Pipelined_RISCV/ALU_rtl.sv
